@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 }catch (InterruptedException e){
                     e.printStackTrace();
                 }
-                progressRabbit += 1;
+                progressTurtle += 1;
                 Message msg = new Message();
                 msg.what = 2;
                 handler.sendMessage(msg);
